@@ -1,0 +1,1 @@
+metadata/token_metadata_FINAL.json ipfs://<CID>

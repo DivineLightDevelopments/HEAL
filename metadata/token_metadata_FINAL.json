@@ -1,0 +1,9 @@
+{
+  "name": "<TOKEN>",
+  "symbol": "<SYMBOL>",
+  "description": "<one-line utility description>",
+  "decimals": 6,
+  "image": "ipfs://<CID_or_replace_with_repo_raw_png>",
+  "background_color": "0B3D91",
+  "attributes": []
+}

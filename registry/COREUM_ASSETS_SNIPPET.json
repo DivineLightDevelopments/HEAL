@@ -1,0 +1,20 @@
+{
+  "denom": "factory/<issuer_address>/u<symbol>",
+  "logo_URIs": { "png": "https://raw.githubusercontent.com/CoreumFoundation/token-registry/master/files/<symbol>/images/<symbol>.png" },
+  "extra": {
+    "precision": 6,
+    "supply": "100000000",
+    "uri": "ipfs://<CID>",
+    "uri_sha256": "<64-char>",
+    "features": {
+      "burning": true,
+      "minting": false,
+      "freezing": false,
+      "whitelisting": false,
+      "ibc": false,
+      "block_smart_contract": false,
+      "clawback": false,
+      "extension": false
+    }
+  }
+}

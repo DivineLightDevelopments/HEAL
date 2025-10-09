@@ -1,0 +1,3 @@
+- File: metadata/token_metadata_FINAL.json
+- URI: ipfs://<CID>
+- SHA-256: <64-char>

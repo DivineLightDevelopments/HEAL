@@ -1,0 +1,2 @@
+<sha256>  icons/token_icon_solid_256.png
+<sha256>  metadata/token_metadata_FINAL.json

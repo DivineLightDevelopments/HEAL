@@ -1,0 +1,3 @@
+Week 1–2: <milestones>
+Week 3–4: <milestones>
+...

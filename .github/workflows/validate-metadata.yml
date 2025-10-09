@@ -1,0 +1,18 @@
+name: Validate metadata & hashes
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JSON validity
+        run: jq . metadata/token_metadata_FINAL.json > /dev/null
+      - name: Recompute SHA-256 of metadata
+        id: hash
+        run: echo "sha=$(sha256sum metadata/token_metadata_FINAL.json | awk '{print $1}')" >> $GITHUB_OUTPUT
+      - name: Ensure hash is listed in checksums
+        run: grep -q "${{ steps.hash.outputs.sha }}" checksums/SHA256SUMS.txt
+      - name: Ensure icons exist
+        run: |
+          test -f icons/token_icon_solid_256.png
+          test -f icons/token_icon_solid.svg
