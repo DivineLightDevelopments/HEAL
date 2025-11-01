@@ -1,2 +1,2 @@
-<sha256>  icons/token_icon_solid_256.png
-<sha256>  metadata/token_metadata_FINAL.json
+SHA-256: 14e78ceb879c3705abcd38ff1ae5f3ecccc5e268ee8ac266e7955a0be289660cg
+SHA-256: ea29ca564a2acad1fdb23e335eed6e95f6f5e7d16e4596f4d7c05bd62e37bd4c
