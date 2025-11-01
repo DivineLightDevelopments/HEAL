@@ -1,3 +1,3 @@
 - File: metadata/token_metadata_FINAL.json
 - URI: ipfs://<CID>
-- SHA-256: <64-char>
+- SHA-256: ea29ca564a2acad1fdb23e335eed6e95f6f5e7d16e4596f4d7c05bd62e37bd4c
