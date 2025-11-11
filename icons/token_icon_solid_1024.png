@@ -1,20 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- HEAL coin — royal blue (#0B3D91) and diamond white (#F3F8FF).
+     Ring/inner fixed: inner=165.6, outer=203.55, ring stroke=37.95.
+     Rays: long end radius=441, short end radius=331. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-<rect width="100%" height="100%" fill="#0B3D91"/>
-<g transform="translate(512,512)">
-<path d="
-M 0,-177
-A 177,177 0 1,1 0,177
-A 177,177 0 1,1 0,-177
-M 0,-144
-A 144,144 0 1,0 0,144
-A 144,144 0 1,0 0,-144
-" fill="#F3F8FF" fill-rule="evenodd"/>
-<g transform="rotate(0)"><path d="M 144,-16.5 L 404.5,-16.5 A 16.5,16.5 0 0 1 404.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(45)"><path d="M 144,-16.5 L 337.5,-16.5 A 16.5,16.5 0 0 1 337.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(90)"><path d="M 144,-16.5 L 404.5,-16.5 A 16.5,16.5 0 0 1 404.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(135)"><path d="M 144,-16.5 L 337.5,-16.5 A 16.5,16.5 0 0 1 337.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(180)"><path d="M 144,-16.5 L 404.5,-16.5 A 16.5,16.5 0 0 1 404.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(225)"><path d="M 144,-16.5 L 337.5,-16.5 A 16.5,16.5 0 0 1 337.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(270)"><path d="M 144,-16.5 L 404.5,-16.5 A 16.5,16.5 0 0 1 404.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-<g transform="rotate(315)"><path d="M 144,-16.5 L 337.5,-16.5 A 16.5,16.5 0 0 1 337.5,16.5 L 144,16.5 Z" fill="#F3F8FF"/></g>
-</g></svg>
+  <!-- Coin circle (outside remains transparent when exported to PNG) -->
+  <circle cx="512" cy="512" r="512" fill="#0B3D91"/>
+
+  <!-- Long rays (0°, 90°, 180°, 270°). Start r=165.6 → 677.6/346.4; End r=441 → 953.0/71.0 -->
+  <line x1="677.6" y1="512" x2="953.0" y2="512" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <line x1="512" y1="677.6" x2="512" y2="953.0" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <line x1="346.4" y1="512" x2="71.0"  y2="512" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <line x1="512" y1="346.4" x2="512" y2="71.0"  stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+
+  <!-- Short rays (45°, 135°, 225°, 315°). Start r=165.6; End r=331.
+       165.6/√2 = 117.1 ; 331/√2 ≈ 234.2 -->
+  <!-- 45° -->
+  <line x1="629.1" y1="629.1" x2="746.2" y2="746.2" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <!-- 135° -->
+  <line x1="394.9" y1="629.1" x2="277.8" y2="746.2" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <!-- 225° -->
+  <line x1="394.9" y1="394.9" x2="277.8" y2="277.8" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+  <!-- 315° -->
+  <line x1="629.1" y1="394.9" x2="746.2" y2="277.8" stroke="#F3F8FF" stroke-width="37.95" stroke-linecap="round"/>
+
+  <!-- White ring (center radius 184.575, stroke 37.95) -->
+  <circle cx="512" cy="512" r="184.575" fill="none" stroke="#F3F8FF" stroke-width="37.95"/>
+
+  <!-- Hollow center -->
+  <circle cx="512" cy="512" r="165.6" fill="#0B3D91"/>
+
+  <title>HEAL coin — circular token; long rays=441, short rays=331</title>
+</svg>
