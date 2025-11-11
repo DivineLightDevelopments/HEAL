@@ -1,1 +1,1 @@
-Signal-only. Proposals via Issues. Weekly poll; CSV of raw counts posted.
+Signal-only. Proposals via Issues. Monthly poll; CSV of raw counts posted.
