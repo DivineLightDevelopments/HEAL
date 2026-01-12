@@ -1,3 +1,3 @@
 - File: "image": "ipfs://QmXMTgqHmjS7zbnn68Q2gkbKUtMTAiDrJwSBa34wpGof3f"
-- URI: ipfs://<CID>
+- URI: ipfs://<QmXMTgqHmjS7zbnn68Q2gkbKUtMTAiDrJwSBa34wpGof3f>
 - SHA-256: ea29ca564a2acad1fdb23e335eed6e95f6f5e7d16e4596f4d7c05bd62e37bd4c
