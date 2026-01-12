@@ -3,6 +3,6 @@
   "symbol": "HEAL",
   "decimals": 6,
   "description": "HEAL coin: royal blue circular token with diamond-white ring and rays. Utility-only. Fixed supply. Burning enabled.",
-  "image": "ipfs://<FOLDER_CID>/icons/HEAL_token_icon_coin.svg",
+  "image": "ipfs://QmXMTgqHmjS7zbnn68Q2gkbKUtMTAiDrJwSBa34wpGof3f",
   "background_color": "0B3D91"
 }
