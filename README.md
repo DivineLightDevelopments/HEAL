@@ -2,7 +2,7 @@
 
 **Token Repository Template**
 
-This repository is a template for Divine Light Developments token projects. It standardizes structure, transparency files, icon/metadata handling, GitHub Pages publishing, and basic validation. Use Use this template to create a new token repo (e.g., heal, flow).
+This repository is a template for Divine Light Developments token projects. It standardizes structure, transparency files, icon/metadata handling, GitHub Pages publishing, and basic validation. Use this template to create a new token repo.
 
 **What you get**
 
